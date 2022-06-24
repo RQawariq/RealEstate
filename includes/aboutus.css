@@ -1,0 +1,54 @@
+.about-us-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 160px 0px 122px;
+  gap: 38px;
+  margin-bottom: 118px;
+}
+
+.first-widget {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.first-widget > div > span {
+  font-family: "inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.first-widget > div > h1 {
+  margin-top: -1px;
+  height: 26px;
+  font-family: "inter", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 53px;
+}
+
+.first-widget > div > .image {
+  width: 583px;
+  height: 504px;
+}
+
+.second-widget {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.second-widget > div > img {
+  width: 540px;
+  height: 485px;
+}
+
+.second-widget-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #A0A0A0;
+}

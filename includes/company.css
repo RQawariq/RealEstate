@@ -1,0 +1,174 @@
+.company-container {
+  display: flex;
+  padding: 0px 171px 0px 128px;
+}
+
+.company-details {
+  display: flex;
+  flex-direction: column;
+  margin-right: 26px;
+}
+
+.boss-picture-with-text {
+  margin-bottom: 13.62px;
+  display: flex;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.boss-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 13.62px;
+}
+
+.boss-text-1 {
+  font-family: "inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.boss-text-2 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #a8a8a8;
+}
+
+.star-with-radio-text {
+  display: flex;
+  align-items: center;
+  width: 311px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+
+.star-with-radio-text > img {
+  height: 26px;
+  width: 25px;
+  margin-right: 14px;
+}
+
+.star-with-radio-text > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #a0a0a0;
+}
+
+.star-with-radio-text > span > input {
+  color: #83a2f2;
+  margin-left: 30px;
+}
+
+.company-card {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 105px;
+  width: 322px;
+  margin-bottom: 35px;
+}
+
+.company-card-img > img {
+  margin-left: 16px;
+  height: 76px;
+  width: 72px;
+}
+
+.company-card-description {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.company-card-description > .small-spanned {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #a8a8a8;
+}
+
+.company-house {
+  height: 601px;
+  width: 437px;
+  margin-right: 29px;
+}
+
+.company-map {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-map-branches {
+    margin-top: 17px;
+}
+
+.branches-first-line,
+.branches-second-line {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 99.5%;
+    color: #B0B0B0;
+}
+
+.branches-first-line {
+    display:flex;
+    gap: 50px;
+}
+
+.branches-first-line > .first-branch-1 {
+    height: 30px;
+    width: 163px;
+    margin-bottom: 50px;
+}
+
+.branches-second-line {
+    display:flex;
+    gap: 50px;
+}
+
+.branches-second-line > .second-branch-1 {
+    height: 59px;
+    width: 163px;
+    margin-bottom: 30px;
+}
+
+.bolded-map {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 99.5%;
+  color: #2d2d2d;
+}
+
+.company-map-logos {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 177px;
+}
+
+.company-map-logos > div > img {
+    height: 75px;
+    width: 72px;
+}

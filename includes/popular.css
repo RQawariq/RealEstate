@@ -1,0 +1,62 @@
+.popular-container {
+  margin: 222px 0px 0px 178px;
+  font-family: "inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 216px;
+}
+
+.popular-images {
+  display: flex;
+  gap: 49px;
+  justify-content: flex-start;
+}
+
+.popular-img1 {
+  margin-top: -30px;
+  gap: 38px;
+  display: flex;
+  flex-direction: column;
+  width: 314px;
+  height: 539px;
+  justify-content: space-between;
+}
+
+.popular-img2 {
+  width: 314px;
+  padding-top: 10px;
+  height: 512px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  justify-content: center;
+}
+
+.popular-img2 > button {
+  background-color: #454555;
+  width: 189px;
+  min-height: 65px;
+  font-family: "inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: White;
+}
+.popular-img3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 314px;
+  margin-top: -30px;
+}
+
+.img3-text {
+  font-family: "inter", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: left;
+}
